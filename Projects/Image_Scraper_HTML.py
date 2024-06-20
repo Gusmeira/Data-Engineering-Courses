@@ -73,4 +73,4 @@ if __name__ == '__main__':
     img_urls = [u for u in all_img_urls if u]
     # print(img_urls)
 
-    save_images(img_urls, amount=5, dest_dir='scraped images', tags=search_tag)
+    save_images(img_urls, amount=5, dest_dir='Projects/Image_Scraped_HTML', tags=search_tag)
